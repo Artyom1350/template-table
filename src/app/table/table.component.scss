@@ -1,0 +1,31 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .table-header {
+    display: flex
+  }
+
+  .table-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__row {
+      display: flex;
+    }
+  }
+
+  .mainInfo {
+    width: 200px;
+  }
+
+  .location {
+    width: 120px;
+  }
+
+  .date {
+    width: 150px;
+  }
+}
